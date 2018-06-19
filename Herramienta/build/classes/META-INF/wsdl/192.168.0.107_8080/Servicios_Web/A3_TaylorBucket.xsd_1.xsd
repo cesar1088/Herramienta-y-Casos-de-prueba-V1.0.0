@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://TaylorBucket_A3/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://TaylorBucket_A3/">
+
+<xs:element name="peticionTaylorBucketA3" type="tns:peticionTaylorBucketA3" />
+
+<xs:element name="peticionTaylorBucketA3Response" type="tns:peticionTaylorBucketA3Response" />
+
+<xs:complexType name="peticionTaylorBucketA3">
+<xs:sequence>
+<xs:element name="total" type="xs:int" />
+<xs:element name="totalCasilleros" type="xs:int" />
+<xs:element name="subAlgoritmo" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="peticionTaylorBucketA3Response">
+<xs:sequence>
+<xs:element name="return" type="xs:double" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

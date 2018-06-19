@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="A1_Bernoulli">
+      <implementation-class>Bernoulli_A1.A1_Bernoulli</implementation-class>
+    </service>
+    <service name="A2_Bernoulli1">
+      <implementation-class>Bernoulli_A2.A2_Bernoulli1</implementation-class>
+    </service>
+    <service name="A3_Bernoulli">
+      <implementation-class>Bernoulli_A3.A3_Bernoulli</implementation-class>
+    </service>
+    <service name="A4_Bernoulli">
+      <implementation-class>Bernoulli_A4.A4_Bernoulli</implementation-class>
+    </service>
+    <service name="A1_Hipercubo">
+      <implementation-class>Hipercubo_A1.A1_Hipercubo</implementation-class>
+    </service>
+    <service name="A3_Hipercubo">
+      <implementation-class>Hipercubo_A3.A3_Hipercubo</implementation-class>
+    </service>
+    <service name="A4_Hipercubo">
+      <implementation-class>Hipercubo_A4.A4_Hipercubo</implementation-class>
+    </service>
+    <service name="A1_TaylorBucket">
+      <implementation-class>TaylorBucket_A1.A1_TaylorBucket</implementation-class>
+    </service>
+    <service name="A2_TaylorBucket">
+      <implementation-class>TaylorBucket_A2.A2_TaylorBucket</implementation-class>
+    </service>
+    <service name="A3_TaylorBucket">
+      <implementation-class>TaylorBucket_A3.A3_TaylorBucket</implementation-class>
+    </service>
+    <service name="A4_TaylorBucket">
+      <implementation-class>TaylorBucket_A4.A4_TaylorBucket</implementation-class>
+    </service>
+    <service name="A1_DDiscretas">
+      <implementation-class>Discretas_DA1.A1_DDiscretas</implementation-class>
+    </service>
+    <service name="A2_DDiscretas">
+      <implementation-class>Discretas_DA2.A2_DDiscretas</implementation-class>
+    </service>
+    <service name="A3_DDiscretas">
+      <implementation-class>Discretas_DA3.A3_DDiscretas</implementation-class>
+    </service>
+    <service name="A1_FDiscretas">
+      <implementation-class>Discretas_FA1.A1_FDiscretas</implementation-class>
+    </service>
+    <service name="A2_FDiscretas">
+      <implementation-class>Discretas_FA2.A2_FDiscretas</implementation-class>
+    </service>
+    <service name="A3_FDiscretas">
+      <implementation-class>Discretas_FA3.A3_FDiscretas</implementation-class>
+    </service>
+    <service name="A4_FDiscretas">
+      <implementation-class>Discretas_FA4.A4_FDiscretas</implementation-class>
+    </service>
+    <service name="A4_DDiscretas">
+      <implementation-class>Discretas_DA4.A4_DDiscretas</implementation-class>
+    </service>
+    <service name="A1_DContinuas">
+      <implementation-class>Continuas_DA1.A1_DContinuas</implementation-class>
+    </service>
+    <service name="A2_DContinuas">
+      <implementation-class>Continuas_DA2.A2_DContinuas</implementation-class>
+    </service>
+    <service name="A3_DContinuas">
+      <implementation-class>Continuas_DA3.A3_DContinuas</implementation-class>
+    </service>
+    <service name="A4_DContinuas">
+      <implementation-class>Continuas_DA4.A4_DContinuas</implementation-class>
+    </service>
+    <service name="A1_FContinuas">
+      <implementation-class>Continuas_FA1.A1_FContinuas</implementation-class>
+    </service>
+    <service name="A2_FContinuas">
+      <implementation-class>Continuas_FA2.A2_FContinuas</implementation-class>
+    </service>
+    <service name="A3_FContinuas">
+      <implementation-class>Continuas_FA3.A3_FContinuas</implementation-class>
+    </service>
+    <service name="A4_FContinuas">
+      <implementation-class>Continuas_FA4.A4_FContinuas</implementation-class>
+    </service>
+    <service name="A2_Hipercubo">
+      <implementation-class>Hipercubo_A2.A2_Hipercubo</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>

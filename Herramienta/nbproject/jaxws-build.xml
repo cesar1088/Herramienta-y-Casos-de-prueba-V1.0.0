@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-A1_Bernoulli" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_Bernoulli"/>
+        <property name="wsdl-A1_Bernoulli" location="xml-resources/web-service-references/A1_Bernoulli/wsdl/192.168.0.107_8080/Servicios_Web/A1_Bernoulli.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_Bernoulli" destdir="${build.generated.dir}/jax-wsCache/A1_Bernoulli" wsdl="${wsdl-A1_Bernoulli}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_Bernoulli?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_Bernoulli}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_Bernoulli"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_Bernoulli">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_Bernoulli" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_Bernoulli"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/bernoulli_a1"/>
+    </target>
+    <target name="wsimport-client-A2_Bernoulli1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_Bernoulli1"/>
+        <property name="wsdl-A2_Bernoulli1" location="xml-resources/web-service-references/A2_Bernoulli1/wsdl/192.168.0.107_8080/Servicios_Web/A2_Bernoulli1.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_Bernoulli1" destdir="${build.generated.dir}/jax-wsCache/A2_Bernoulli1" wsdl="${wsdl-A2_Bernoulli1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_Bernoulli1?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_Bernoulli1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_Bernoulli1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_Bernoulli1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_Bernoulli1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_Bernoulli1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/bernoulli_a2"/>
+    </target>
+    <target name="wsimport-client-A3_Bernoulli" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_Bernoulli"/>
+        <property name="wsdl-A3_Bernoulli" location="xml-resources/web-service-references/A3_Bernoulli/wsdl/192.168.0.107_8080/Servicios_Web/A3_Bernoulli.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_Bernoulli" destdir="${build.generated.dir}/jax-wsCache/A3_Bernoulli" wsdl="${wsdl-A3_Bernoulli}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_Bernoulli?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_Bernoulli}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_Bernoulli"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_Bernoulli">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_Bernoulli" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_Bernoulli"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/bernoulli_a3"/>
+    </target>
+    <target name="wsimport-client-A4_Bernoulli" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_Bernoulli"/>
+        <property name="wsdl-A4_Bernoulli" location="xml-resources/web-service-references/A4_Bernoulli/wsdl/192.168.0.107_8080/Servicios_Web/A4_Bernoulli.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_Bernoulli" destdir="${build.generated.dir}/jax-wsCache/A4_Bernoulli" wsdl="${wsdl-A4_Bernoulli}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_Bernoulli?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_Bernoulli}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_Bernoulli"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_Bernoulli">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_Bernoulli" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_Bernoulli"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/bernoulli_a4"/>
+    </target>
+    <target name="wsimport-client-A1_Hipercubo" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_Hipercubo"/>
+        <property name="wsdl-A1_Hipercubo" location="xml-resources/web-service-references/A1_Hipercubo/wsdl/192.168.0.107_8080/Servicios_Web/A1_Hipercubo.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_Hipercubo" destdir="${build.generated.dir}/jax-wsCache/A1_Hipercubo" wsdl="${wsdl-A1_Hipercubo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_Hipercubo?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_Hipercubo}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_Hipercubo"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_Hipercubo">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_Hipercubo" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_Hipercubo"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/hipercubo_a1"/>
+    </target>
+    <target name="wsimport-client-A3_Hipercubo" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_Hipercubo"/>
+        <property name="wsdl-A3_Hipercubo" location="xml-resources/web-service-references/A3_Hipercubo/wsdl/192.168.0.107_8080/Servicios_Web/A3_Hipercubo.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_Hipercubo" destdir="${build.generated.dir}/jax-wsCache/A3_Hipercubo" wsdl="${wsdl-A3_Hipercubo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_Hipercubo?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_Hipercubo}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_Hipercubo"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_Hipercubo">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_Hipercubo" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_Hipercubo"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/hipercubo_a3"/>
+    </target>
+    <target name="wsimport-client-A4_Hipercubo" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_Hipercubo"/>
+        <property name="wsdl-A4_Hipercubo" location="xml-resources/web-service-references/A4_Hipercubo/wsdl/192.168.0.107_8080/Servicios_Web/A4_Hipercubo.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_Hipercubo" destdir="${build.generated.dir}/jax-wsCache/A4_Hipercubo" wsdl="${wsdl-A4_Hipercubo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_Hipercubo?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_Hipercubo}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_Hipercubo"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_Hipercubo">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_Hipercubo" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_Hipercubo"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/hipercubo_a4"/>
+    </target>
+    <target name="wsimport-client-A1_TaylorBucket" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_TaylorBucket"/>
+        <property name="wsdl-A1_TaylorBucket" location="xml-resources/web-service-references/A1_TaylorBucket/wsdl/192.168.0.107_8080/Servicios_Web/A1_TaylorBucket.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_TaylorBucket" destdir="${build.generated.dir}/jax-wsCache/A1_TaylorBucket" wsdl="${wsdl-A1_TaylorBucket}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_TaylorBucket?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_TaylorBucket}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_TaylorBucket"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_TaylorBucket">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_TaylorBucket" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_TaylorBucket"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/taylorbucket_a1"/>
+    </target>
+    <target name="wsimport-client-A2_TaylorBucket" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_TaylorBucket"/>
+        <property name="wsdl-A2_TaylorBucket" location="xml-resources/web-service-references/A2_TaylorBucket/wsdl/192.168.0.107_8080/Servicios_Web/A2_TaylorBucket.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_TaylorBucket" destdir="${build.generated.dir}/jax-wsCache/A2_TaylorBucket" wsdl="${wsdl-A2_TaylorBucket}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_TaylorBucket?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_TaylorBucket}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_TaylorBucket"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_TaylorBucket">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_TaylorBucket" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_TaylorBucket"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/taylorbucket_a2"/>
+    </target>
+    <target name="wsimport-client-A3_TaylorBucket" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_TaylorBucket"/>
+        <property name="wsdl-A3_TaylorBucket" location="xml-resources/web-service-references/A3_TaylorBucket/wsdl/192.168.0.107_8080/Servicios_Web/A3_TaylorBucket.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_TaylorBucket" destdir="${build.generated.dir}/jax-wsCache/A3_TaylorBucket" wsdl="${wsdl-A3_TaylorBucket}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_TaylorBucket?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_TaylorBucket}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_TaylorBucket"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_TaylorBucket">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_TaylorBucket" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_TaylorBucket"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/taylorbucket_a3"/>
+    </target>
+    <target name="wsimport-client-A4_TaylorBucket" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_TaylorBucket"/>
+        <property name="wsdl-A4_TaylorBucket" location="xml-resources/web-service-references/A4_TaylorBucket/wsdl/192.168.0.107_8080/Servicios_Web/A4_TaylorBucket.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_TaylorBucket" destdir="${build.generated.dir}/jax-wsCache/A4_TaylorBucket" wsdl="${wsdl-A4_TaylorBucket}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_TaylorBucket?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_TaylorBucket}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_TaylorBucket"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_TaylorBucket">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_TaylorBucket" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_TaylorBucket"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/taylorbucket_a4"/>
+    </target>
+    <target name="wsimport-client-A1_DDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_DDiscretas"/>
+        <property name="wsdl-A1_DDiscretas" location="xml-resources/web-service-references/A1_DDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A1_DDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_DDiscretas" destdir="${build.generated.dir}/jax-wsCache/A1_DDiscretas" wsdl="${wsdl-A1_DDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_DDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_DDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_DDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_DDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_DDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_DDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_da1"/>
+    </target>
+    <target name="wsimport-client-A2_DDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_DDiscretas"/>
+        <property name="wsdl-A2_DDiscretas" location="xml-resources/web-service-references/A2_DDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A2_DDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_DDiscretas" destdir="${build.generated.dir}/jax-wsCache/A2_DDiscretas" wsdl="${wsdl-A2_DDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_DDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_DDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_DDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_DDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_DDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_DDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_da2"/>
+    </target>
+    <target name="wsimport-client-A3_DDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_DDiscretas"/>
+        <property name="wsdl-A3_DDiscretas" location="xml-resources/web-service-references/A3_DDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A3_DDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_DDiscretas" destdir="${build.generated.dir}/jax-wsCache/A3_DDiscretas" wsdl="${wsdl-A3_DDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_DDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_DDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_DDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_DDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_DDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_DDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_da3"/>
+    </target>
+    <target name="wsimport-client-A4_DDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_DDiscretas"/>
+        <property name="wsdl-A4_DDiscretas" location="xml-resources/web-service-references/A4_DDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A4_DDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_DDiscretas" destdir="${build.generated.dir}/jax-wsCache/A4_DDiscretas" wsdl="${wsdl-A4_DDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_DDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_DDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_DDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_DDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_DDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_DDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_da4"/>
+    </target>
+    <target name="wsimport-client-A1_FDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_FDiscretas"/>
+        <property name="wsdl-A1_FDiscretas" location="xml-resources/web-service-references/A1_FDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A1_FDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_FDiscretas" destdir="${build.generated.dir}/jax-wsCache/A1_FDiscretas" wsdl="${wsdl-A1_FDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_FDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_FDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_FDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_FDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_FDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_FDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_fa1"/>
+    </target>
+    <target name="wsimport-client-A2_FDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_FDiscretas"/>
+        <property name="wsdl-A2_FDiscretas" location="xml-resources/web-service-references/A2_FDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A2_FDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_FDiscretas" destdir="${build.generated.dir}/jax-wsCache/A2_FDiscretas" wsdl="${wsdl-A2_FDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_FDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_FDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_FDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_FDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_FDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_FDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_fa2"/>
+    </target>
+    <target name="wsimport-client-A3_FDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_FDiscretas"/>
+        <property name="wsdl-A3_FDiscretas" location="xml-resources/web-service-references/A3_FDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A3_FDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_FDiscretas" destdir="${build.generated.dir}/jax-wsCache/A3_FDiscretas" wsdl="${wsdl-A3_FDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_FDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_FDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_FDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_FDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_FDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_FDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_fa3"/>
+    </target>
+    <target name="wsimport-client-A4_FDiscretas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_FDiscretas"/>
+        <property name="wsdl-A4_FDiscretas" location="xml-resources/web-service-references/A4_FDiscretas/wsdl/192.168.0.107_8080/Servicios_Web/A4_FDiscretas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_FDiscretas" destdir="${build.generated.dir}/jax-wsCache/A4_FDiscretas" wsdl="${wsdl-A4_FDiscretas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_FDiscretas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_FDiscretas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_FDiscretas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_FDiscretas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_FDiscretas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_FDiscretas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/discretas_fa4"/>
+    </target>
+    <target name="wsimport-client-A1_DContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_DContinuas"/>
+        <property name="wsdl-A1_DContinuas" location="xml-resources/web-service-references/A1_DContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A1_DContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_DContinuas" destdir="${build.generated.dir}/jax-wsCache/A1_DContinuas" wsdl="${wsdl-A1_DContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_DContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_DContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_DContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_DContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_DContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_DContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_da1"/>
+    </target>
+    <target name="wsimport-client-A2_DContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_DContinuas"/>
+        <property name="wsdl-A2_DContinuas" location="xml-resources/web-service-references/A2_DContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A2_DContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_DContinuas" destdir="${build.generated.dir}/jax-wsCache/A2_DContinuas" wsdl="${wsdl-A2_DContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_DContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_DContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_DContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_DContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_DContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_DContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_da2"/>
+    </target>
+    <target name="wsimport-client-A3_DContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_DContinuas"/>
+        <property name="wsdl-A3_DContinuas" location="xml-resources/web-service-references/A3_DContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A3_DContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_DContinuas" destdir="${build.generated.dir}/jax-wsCache/A3_DContinuas" wsdl="${wsdl-A3_DContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_DContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_DContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_DContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_DContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_DContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_DContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_da3"/>
+    </target>
+    <target name="wsimport-client-A4_DContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_DContinuas"/>
+        <property name="wsdl-A4_DContinuas" location="xml-resources/web-service-references/A4_DContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A4_DContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_DContinuas" destdir="${build.generated.dir}/jax-wsCache/A4_DContinuas" wsdl="${wsdl-A4_DContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_DContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_DContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_DContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_DContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_DContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_DContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_da4"/>
+    </target>
+    <target name="wsimport-client-A1_FContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A1_FContinuas"/>
+        <property name="wsdl-A1_FContinuas" location="xml-resources/web-service-references/A1_FContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A1_FContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A1_FContinuas" destdir="${build.generated.dir}/jax-wsCache/A1_FContinuas" wsdl="${wsdl-A1_FContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A1_FContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A1_FContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A1_FContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A1_FContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A1_FContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A1_FContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_fa1"/>
+    </target>
+    <target name="wsimport-client-A2_FContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_FContinuas"/>
+        <property name="wsdl-A2_FContinuas" location="xml-resources/web-service-references/A2_FContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A2_FContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_FContinuas" destdir="${build.generated.dir}/jax-wsCache/A2_FContinuas" wsdl="${wsdl-A2_FContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_FContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_FContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_FContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_FContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_FContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_FContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_fa2"/>
+    </target>
+    <target name="wsimport-client-A3_FContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A3_FContinuas"/>
+        <property name="wsdl-A3_FContinuas" location="xml-resources/web-service-references/A3_FContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A3_FContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A3_FContinuas" destdir="${build.generated.dir}/jax-wsCache/A3_FContinuas" wsdl="${wsdl-A3_FContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A3_FContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A3_FContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A3_FContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A3_FContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A3_FContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A3_FContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_fa3"/>
+    </target>
+    <target name="wsimport-client-A4_FContinuas" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A4_FContinuas"/>
+        <property name="wsdl-A4_FContinuas" location="xml-resources/web-service-references/A4_FContinuas/wsdl/192.168.0.107_8080/Servicios_Web/A4_FContinuas.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A4_FContinuas" destdir="${build.generated.dir}/jax-wsCache/A4_FContinuas" wsdl="${wsdl-A4_FContinuas}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A4_FContinuas?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A4_FContinuas}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A4_FContinuas"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A4_FContinuas">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A4_FContinuas" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A4_FContinuas"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/continuas_fa4"/>
+    </target>
+    <target name="wsimport-client-A2_Hipercubo" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/A2_Hipercubo"/>
+        <property name="wsdl-A2_Hipercubo" location="xml-resources/web-service-references/A2_Hipercubo/wsdl/192.168.0.107_8080/Servicios_Web/A2_Hipercubo.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/A2_Hipercubo" destdir="${build.generated.dir}/jax-wsCache/A2_Hipercubo" wsdl="${wsdl-A2_Hipercubo}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.107:8080/Servicios_Web/A2_Hipercubo?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-A2_Hipercubo}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/A2_Hipercubo"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/A2_Hipercubo">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-A2_Hipercubo" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/A2_Hipercubo"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/hipercubo_a2"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-A1_Bernoulli, wsimport-client-A2_Bernoulli1, wsimport-client-A3_Bernoulli, wsimport-client-A4_Bernoulli, wsimport-client-A1_Hipercubo, wsimport-client-A3_Hipercubo, wsimport-client-A4_Hipercubo, wsimport-client-A1_TaylorBucket, wsimport-client-A2_TaylorBucket, wsimport-client-A3_TaylorBucket, wsimport-client-A4_TaylorBucket, wsimport-client-A1_DDiscretas, wsimport-client-A2_DDiscretas, wsimport-client-A3_DDiscretas, wsimport-client-A4_DDiscretas, wsimport-client-A1_FDiscretas, wsimport-client-A2_FDiscretas, wsimport-client-A3_FDiscretas, wsimport-client-A4_FDiscretas, wsimport-client-A1_DContinuas, wsimport-client-A2_DContinuas, wsimport-client-A3_DContinuas, wsimport-client-A4_DContinuas, wsimport-client-A1_FContinuas, wsimport-client-A2_FContinuas, wsimport-client-A3_FContinuas, wsimport-client-A4_FContinuas, wsimport-client-A2_Hipercubo"/>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="Bernoulli_A1.A1_Bernoulli" name="A1_Bernoulli" url-pattern="/A1_Bernoulli"/>
+  <endpoint implementation="Bernoulli_A2.A2_Bernoulli1" name="A2_Bernoulli1" url-pattern="/A2_Bernoulli1"/>
+  <endpoint implementation="Bernoulli_A3.A3_Bernoulli" name="A3_Bernoulli" url-pattern="/A3_Bernoulli"/>
+  <endpoint implementation="Bernoulli_A4.A4_Bernoulli" name="A4_Bernoulli" url-pattern="/A4_Bernoulli"/>
+  <endpoint implementation="Hipercubo_A1.A1_Hipercubo" name="A1_Hipercubo" url-pattern="/A1_Hipercubo"/>
+  <endpoint implementation="Hipercubo_A3.A3_Hipercubo" name="A3_Hipercubo" url-pattern="/A3_Hipercubo"/>
+  <endpoint implementation="Hipercubo_A4.A4_Hipercubo" name="A4_Hipercubo" url-pattern="/A4_Hipercubo"/>
+  <endpoint implementation="TaylorBucket_A1.A1_TaylorBucket" name="A1_TaylorBucket" url-pattern="/A1_TaylorBucket"/>
+  <endpoint implementation="TaylorBucket_A2.A2_TaylorBucket" name="A2_TaylorBucket" url-pattern="/A2_TaylorBucket"/>
+  <endpoint implementation="TaylorBucket_A3.A3_TaylorBucket" name="A3_TaylorBucket" url-pattern="/A3_TaylorBucket"/>
+  <endpoint implementation="TaylorBucket_A4.A4_TaylorBucket" name="A4_TaylorBucket" url-pattern="/A4_TaylorBucket"/>
+  <endpoint implementation="Discretas_DA1.A1_DDiscretas" name="A1_DDiscretas" url-pattern="/A1_DDiscretas"/>
+  <endpoint implementation="Discretas_DA2.A2_DDiscretas" name="A2_DDiscretas" url-pattern="/A2_DDiscretas"/>
+  <endpoint implementation="Discretas_DA3.A3_DDiscretas" name="A3_DDiscretas" url-pattern="/A3_DDiscretas"/>
+  <endpoint implementation="Discretas_FA1.A1_FDiscretas" name="A1_FDiscretas" url-pattern="/A1_FDiscretas"/>
+  <endpoint implementation="Discretas_FA2.A2_FDiscretas" name="A2_FDiscretas" url-pattern="/A2_FDiscretas"/>
+  <endpoint implementation="Discretas_FA3.A3_FDiscretas" name="A3_FDiscretas" url-pattern="/A3_FDiscretas"/>
+  <endpoint implementation="Discretas_FA4.A4_FDiscretas" name="A4_FDiscretas" url-pattern="/A4_FDiscretas"/>
+  <endpoint implementation="Discretas_DA4.A4_DDiscretas" name="A4_DDiscretas" url-pattern="/A4_DDiscretas"/>
+  <endpoint implementation="Continuas_DA1.A1_DContinuas" name="A1_DContinuas" url-pattern="/A1_DContinuas"/>
+  <endpoint implementation="Continuas_DA2.A2_DContinuas" name="A2_DContinuas" url-pattern="/A2_DContinuas"/>
+  <endpoint implementation="Continuas_DA3.A3_DContinuas" name="A3_DContinuas" url-pattern="/A3_DContinuas"/>
+  <endpoint implementation="Continuas_DA4.A4_DContinuas" name="A4_DContinuas" url-pattern="/A4_DContinuas"/>
+  <endpoint implementation="Continuas_FA1.A1_FContinuas" name="A1_FContinuas" url-pattern="/A1_FContinuas"/>
+  <endpoint implementation="Continuas_FA2.A2_FContinuas" name="A2_FContinuas" url-pattern="/A2_FContinuas"/>
+  <endpoint implementation="Continuas_FA3.A3_FContinuas" name="A3_FContinuas" url-pattern="/A3_FContinuas"/>
+  <endpoint implementation="Continuas_FA4.A4_FContinuas" name="A4_FContinuas" url-pattern="/A4_FContinuas"/>
+  <endpoint implementation="Hipercubo_A2.A2_Hipercubo" name="A2_Hipercubo" url-pattern="/A2_Hipercubo"/>
+</endpoints>
