@@ -34,6 +34,6 @@ CONTINUAS (2)	25	50	75	100	125	150	175	200	300	500
 
 DISCRETAS	25	50	75	100	125	150	175	200	300	500
 
-3 - Seleccione el número de repeticiones del experimento (30 repeticiones por default es el mínimo para considerar que los resultados comienzan a ser estadísticamente significativos)
+3 - Seleccione el número de repeticiones del experimento (30 repeticiones es el mínimo para considerar que los resultados comienzan a ser estadísticamente significativos)
 
 4 - Presione el boton: "INICIAR" y espere a que la ejecución de las pruebas termine. Posteriormente registre el tiempo de respuesta mostrado en la interfaz.
